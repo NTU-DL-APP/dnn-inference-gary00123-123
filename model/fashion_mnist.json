@@ -36,11 +36,22 @@
     "name": "dense_3",
     "type": "Dense",
     "config": {
-      "activation": "softmax"
+      "activation": "relu"
     },
     "weights": [
       "dense_3_kernel:0",
       "dense_3_bias:0"
+    ]
+  },
+  {
+    "name": "dense_4",
+    "type": "Dense",
+    "config": {
+      "activation": "softmax"
+    },
+    "weights": [
+      "dense_4_kernel:0",
+      "dense_4_bias:0"
     ]
   }
 ]
